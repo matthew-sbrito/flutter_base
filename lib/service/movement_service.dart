@@ -3,7 +3,7 @@ import 'package:base_flutter/config/http/http_client.dart';
 import 'package:base_flutter/service/synchronization_service.dart';
 import 'package:injectable/injectable.dart';
 
-@injectable
+@singleton
 class MovementService {
   final HttpClient _httpClient;
 

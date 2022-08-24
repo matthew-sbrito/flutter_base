@@ -5,7 +5,7 @@ import 'package:base_flutter/service/movement_service.dart';
 import 'package:base_flutter/utils/console.dart' as console;
 import 'package:injectable/injectable.dart';
 
-@injectable
+@singleton
 class SynchronizationService {
 
   final HttpClient httpClient;
